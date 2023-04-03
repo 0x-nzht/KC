@@ -9,7 +9,8 @@ import {
 	orangeThemeIcon,
 } from './icons';
 
-
+const themes = [
+]
 
 @customElement('theme-switcher')
 export class ThemeSwitcher extends LitElement {
