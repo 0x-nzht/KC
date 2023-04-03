@@ -1,12 +1,17 @@
 import { LitElement, html, css } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 
-
+import {
+	classicThemeIcon,
+	darkThemeIcon,
+	earthThemeIcon,
+	blueThemeIcon,
+	orangeThemeIcon,
+} from './icons';
 
 const themes = [
   {
     name: 'default',
-    icon: classicThemeIcon,
     label: 'Classic',
   },
   {
