@@ -12,12 +12,8 @@ import {
 const themes = [
   {
     name: 'default',
+    icon: classicThemeIcon,
     label: 'Classic',
-  },
-  {
-    name: 'dark',
-    icon: darkThemeIcon,
-    label: 'Dark',
   },
   {
     name: 'earth',
