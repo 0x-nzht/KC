@@ -10,11 +10,6 @@ import {
 } from './icons';
 
 const themes = [
-  {
-    name: 'default',
-    icon: classicThemeIcon,
-    label: 'Classic',
-  }
 ]
 
 @customElement('theme-switcher')
